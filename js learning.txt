@@ -1,0 +1,18 @@
+let names = ["richard"];
+
+console.log(names);
+
+const capitalizedName = names.map(function (name){
+    return name.toUpperCase()
+}
+)
+
+console.log(capitalizedName);
+
+const person = {
+    name: "Richy",
+    age: 23,
+    graduated: true,
+};  
+
+console.log (person)
